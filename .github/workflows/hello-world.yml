@@ -12,3 +12,6 @@ jobs:
     steps:
       - name: Saludo
         run: echo "¡Hola Mundo!"
+
+name: hello-world
+on: push
