@@ -1,17 +1,3 @@
-name: hello-world
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Saludo
-        run: echo "¡Hola Mundo!"
 
 name: hello-world
 on: push
